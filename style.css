@@ -1,0 +1,95 @@
+* {
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+html {
+	background-color: #eeeeee;
+	background-image: url('rockies.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+	font-family: 'Meie Script', cursive;
+	color: #333333;
+	width: 90%;
+	/* background-color: white; */
+	padding: 10px;
+	margin: 0px auto;
+	/*box-shadow: 0px 0px 40px rgba(0,0,0,.5);
+	-moz-box-shadow: 0px 0px 40px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0px 0px 40px rgba(0,0,0,.5); */
+}
+
+img {
+	width: 25%;
+	height: 25%;
+	float: right;
+	background: white;
+	padding: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+h1 {
+	font-family: 'Monsieur La Doulaise', cursive;
+	font-size: 500%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-family: 'Monsieur La Doulaise', cursive;
+	font-size: 400%;
+	text-align: center;
+	margin-bottom: 7px;
+}
+
+address {
+	text-align:center;
+	font-size: 200%;
+}
+
+li {
+	font-size: 170%;
+}
+
+a:link{
+	color: #F048D7;
+	text-decoration:none;
+}
+a:visited{
+	color: #0A4544;
+}
+a:hover{
+	color: #3388cc;
+}
+a:focus{
+	color: #3388cc;
+	background-color: yellow;
+}
+a:active{
+	color: black;
+}
+
+section, 
+header {
+	background: white;
+	background: rgba(255,255,255,0.7);
+/*	margin-bottom: 200px;
+	padding: 100 px; */
+
+
+
+@media screen and (min-width: 1000 px) {
+
+	body {
+		width: 500 px;
+		font-size: 125%;
+		background-color: red;
+	}
+}
+
